@@ -1,5 +1,3 @@
-# HYIVS Arduino Project
-# 09012020
 void setup() 只執行一次,Arduino的初始設定
 vid loop() 會重複執行,主程式的位置
 第一個指令:
