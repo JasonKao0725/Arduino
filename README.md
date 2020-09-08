@@ -8,7 +8,7 @@ pinMode (pin,INPUT/OUTPUT)</p>
 此語法為設定腳位輸出(OUTPUT)或輸入(INPUT)</p>
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
-＃Project1：讓LED閃爍</p>
+Project1：讓LED閃爍</p>
 }</p>
 程式碼：</p>
 int LED = 3 ,JJ = 0;</p>
