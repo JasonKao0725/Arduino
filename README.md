@@ -1,15 +1,18 @@
 # HYIVS Arduino Practical Class
 初始指令：</p>
 ```C++
-void setup() //只執行一次，Arduino的初始設定
-void loop()  //會重複執行，主程式的位置
+void setup()
 ```
-腳位指令：</p>
+只執行一次，Arduino的初始設定</p>
+```C++
+void loop()
+```
+會重複執行，主程式的位置</p>
 ```C++
 pinMode (pin,INPUT)
 pinMode (pin,OUTPUT)
 ```
-此指令為設定腳位輸入(INPUT)或輸出(OUTPUT)</p>
+設定腳位輸入(INPUT)或輸出(OUTPUT)</p>
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
 # 20200901
