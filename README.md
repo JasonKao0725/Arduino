@@ -1,5 +1,5 @@
 # HYIVS Arduino Practical Class
-Arduino指令：</p>
+初始指令：
 ```C++
 void setup()
 ```
@@ -9,7 +9,7 @@ void loop()
 ```
 會重複執行，主程式的位置</p>
 ```C++
-pinMode (pin,INPUT/OUTPUT)
+pinMode(pin,INPUT/OUTPUT)
 ```
 設定腳位輸入(INPUT)或輸出(OUTPUT)</p>
 INPUT的初始狀態 = 1</p>
