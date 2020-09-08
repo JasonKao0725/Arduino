@@ -37,3 +37,4 @@ void loop() {</p>
   jj^=1;</p>
 }</p>
 實體電路圖：</p>
+![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
