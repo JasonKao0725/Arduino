@@ -6,7 +6,8 @@ void loop()  //會重複執行，主程式的位置
 ```
 腳位指令：</p>
 ```C++
-pinMode (pin,INPUT/OUTPUT)
+pinMode (pin,INPUT)
+pinMode (pin,OUTPUT)
 ```
 此指令為設定腳位輸入(INPUT)或輸出(OUTPUT)</p>
 INPUT的初始狀態 = 1</p>
@@ -33,7 +34,7 @@ Project2：四顆LED同時閃爍</p>
 int jj = 0;
 void setup() {
   for(int i =2;i<6;i++)pinMode (i,OUTPUT);
-}</p>
+}
 void loop() {
   for(int i =2;i<6;i++)digitalWrite (i,jj);
   delay (250);
