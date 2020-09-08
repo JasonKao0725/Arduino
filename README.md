@@ -25,7 +25,7 @@ JJ ^= 1;</p>
 實體電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/9B7CCF67-C73C-4070-9213-7E7BCDEE8E0A.jpeg)</p>
 # 09082020
-四顆LED同時閃爍</p>
+Project2：四顆LED同時閃爍</p>
 程式碼：</p>
 int jj = 0;</p>
 void setup() {</p>
