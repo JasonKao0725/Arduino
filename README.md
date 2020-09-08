@@ -12,6 +12,7 @@ pinMode (pin,INPUT/OUTPUT)
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
 # 09012020
+Project1：單顆LED閃爍</p>
 程式碼：</p>
 ```c++
 int ,JJ = 0;
