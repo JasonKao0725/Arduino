@@ -9,7 +9,6 @@ pinMode (pin,INPUT/OUTPUT)</p>
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
 Project1：讓LED閃爍</p>
-}</p>
 程式碼：</p>
 ```c++
 int LED = 3 ,JJ = 0;
@@ -21,7 +20,6 @@ void loop() {
   delay (250)
 JJ ^= 1;
 ```
-}</p>
 電子電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/EB4DD0E6-0723-48F1-8A73-749E22212470.jpeg)</p>
 實體電路圖：</p>
