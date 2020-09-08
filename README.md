@@ -20,8 +20,6 @@ void loop() {
   delay (250)
 JJ ^= 1;
 ```
-電子電路圖：</p>
-![image](https://github.com/JasonKao0725/Arduino/blob/master/EB4DD0E6-0723-48F1-8A73-749E22212470.jpeg)</p>
 實體電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/9B7CCF67-C73C-4070-9213-7E7BCDEE8E0A.jpeg)</p>
 # 09082020
