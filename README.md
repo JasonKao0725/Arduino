@@ -11,14 +11,16 @@ OUTPUT的初始狀態 = 0</p>
 Project1：讓LED閃爍</p>
 }</p>
 程式碼：</p>
-int LED = 3 ,JJ = 0;</p>
-void setup() {</p>
-pinMode (LED,JJ)</p>
-}</p>
-void loop() {</p>
-  digitalWrite (LED,JJ)</p>
-  delay (250)</p>
-JJ ^= 1;</p>
+```c++
+int LED = 3 ,JJ = 0;
+void setup() {
+pinMode (LED,JJ)
+}
+void loop() {
+  digitalWrite (LED,JJ)
+  delay (250)
+JJ ^= 1;
+```
 }</p>
 電子電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/EB4DD0E6-0723-48F1-8A73-749E22212470.jpeg)</p>
@@ -27,14 +29,16 @@ JJ ^= 1;</p>
 # 09082020
 Project2：四顆LED同時閃爍</p>
 程式碼：</p>
-int jj = 0;</p>
-void setup() {</p>
-  for(int i =2;i<6;i++)pinMode (i,OUTPUT);</p>
+```c++
+int jj = 0;
+void setup() {
+  for(int i =2;i<6;i++)pinMode (i,OUTPUT);
 }</p>
-void loop() {</p>
-  for(int i =2;i<6;i++)digitalWrite (i,jj);</p>
-  delay (250);</p>
-  jj^=1;</p>
-}</p>
+void loop() {
+  for(int i =2;i<6;i++)digitalWrite (i,jj);
+  delay (250);
+  jj^=1;
+}
+```
 實體電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
