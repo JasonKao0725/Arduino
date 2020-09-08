@@ -24,7 +24,7 @@ void loop() {
   delay (250)
 JJ ^= 1;
 ```
-實體電路圖：</p>
+電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/9B7CCF67-C73C-4070-9213-7E7BCDEE8E0A.jpeg)</p>
 # 09082020
 Project2：四顆LED同時閃爍</p>
@@ -40,5 +40,5 @@ void loop() {
   jj^=1;
 }
 ```
-實體電路圖：</p>
+電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
