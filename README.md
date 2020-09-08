@@ -1,4 +1,5 @@
-# Arduino Project 09.01.2020
+# Arduino Project
+#09012020
 初始指令：
 void setup() <--> 只執行一次,Arduino的初始設定
 vid loop() <-->會重複執行,主程式的位置
