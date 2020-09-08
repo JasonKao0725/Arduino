@@ -4,11 +4,11 @@
 void setup() //只執行一次,Arduino的初始設定
 vid loop() //會重複執行,主程式的位置
 ```
-第一個指令：</p>
+腳位指令：</p>
 ```c++
 pinMode (pin,INPUT/OUTPUT)
 ```
-此語法為設定腳位輸出(OUTPUT)或輸入(INPUT)</p>
+此語法為設定腳位輸入(INPUT)或輸出(OUTPUT)</p>
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
 # 09012020
