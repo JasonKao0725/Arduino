@@ -1,5 +1,4 @@
 # Arduino Project
-# 09012020
 初始指令：</p>
 void setup() <--> 只執行一次,Arduino的初始設定</p>
 vid loop() <-->會重複執行,主程式的位置</p>
@@ -8,15 +7,15 @@ pinMode (pin,INPUT/OUTPUT)</p>
 此語法為設定腳位輸出(OUTPUT)或輸入(INPUT)</p>
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
-Project1：讓LED閃爍</p>
+# 09012020
 程式碼：</p>
 ```c++
-int LED = 3 ,JJ = 0;
+int ,JJ = 0;
 void setup() {
-pinMode (LED,JJ)
+pinMode (3,JJ)
 }
 void loop() {
-  digitalWrite (LED,JJ)
+  digitalWrite (3,JJ)
   delay (250)
 JJ ^= 1;
 ```
