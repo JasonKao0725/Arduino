@@ -20,11 +20,11 @@ Project1：單顆LED閃爍</p>
 ```C++
 int ,JJ = 0;
 void setup() {
-pinMode (3,JJ)
+pinMode(3,JJ)
 }
 void loop() {
-  digitalWrite (3,JJ)
-  delay (250)
+  digitalWrite(3,JJ)
+  delay(250)
 JJ ^= 1;
 ```
 電路圖：</p>
@@ -35,12 +35,12 @@ Project2：四顆LED同時閃爍</p>
 ```c++
 int jj = 0;
 void setup() {
-  for(int i =2;i<6;i++)pinMode (i,OUTPUT);
+  for(int i = 2 ; i<6 ; i++)pinMode(i,OUTPUT);
 }
 void loop() {
-  for(int i =2;i<6;i++)digitalWrite (i,jj);
-  delay (250);
-  jj^=1;
+  for(int i = 2 ; i<6 ; i++)digitalWrite(i,jj);
+  delay(250);
+  jj ^= 1;
 }
 ```
 電路圖：</p>
