@@ -132,4 +132,4 @@ void loop() {
 }
 ```
 電路圖：</p>
-![image]()
+![image](https://github.com/JasonKao0725/Arduino/blob/master/73A9E4A5-7DCD-4CC8-9784-1F87FCF3F158.jpeg)
