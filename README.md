@@ -68,3 +68,25 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/54918922-D275-4353-BBCA-CA472D0CA838.jpeg)
+Project4：LED從左到右8顆跑馬燈</p>
+程式碼：</p>
+```c++
+int LED = 10;
+void setup() {
+  for (int i=1;i<10;i++)
+  pinMode(i,OUTPUT);
+}
+
+void loop() {
+  for (int i=10;i>1;i--)
+    digitalWrite(i,HIGH);
+  if (LED >= 1)
+    digitalWrite(LED,LOW);
+  else 
+    LED = 10;
+LED--;
+delay (250);
+}
+```
+電路圖：</p>
+![image]()
