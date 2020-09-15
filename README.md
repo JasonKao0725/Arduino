@@ -45,3 +45,26 @@ void loop() {
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
+# 20200915
+Project3：LED跑馬燈</p>
+程式碼：</p>
+```c++
+int LED = 6;
+void setup() {
+  for (int i=2;i<6;i++)
+  pinMode(i,OUTPUT);
+}
+
+void loop() {
+  for (int i=5;i>1;i--)
+    digitalWrite(i,HIGH);
+  if (LED >= 2)
+    digitalWrite(LED,LOW);
+  else 
+    LED = 6;
+LED--;
+delay (250);
+}
+```
+電路圖：</p>
+![image]()
