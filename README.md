@@ -112,11 +112,11 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
-Project5：呼吸燈</p>
+Project5：呼吸燈(暗到亮亮到暗)</p>
 程式碼：</p>
 ```c++
-int b = 0;
-int f = 1;
+int b = 255;
+int f = -1;
 void setup() {
   pinMode(5,OUTPUT);
 }
@@ -124,12 +124,11 @@ void setup() {
 void loop() {
   analogWrite(5,b);
   b = b + f;
-  if (b <=0)
+  if (b <=0||b >= 255)
      f = -f;
-  if (b >= 255)
-    f = -f;
   delay(5);
 }
+
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/73A9E4A5-7DCD-4CC8-9784-1F87FCF3F158.jpeg)
