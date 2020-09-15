@@ -112,3 +112,24 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
+Project5：呼吸燈</p>
+程式碼：</p>
+```c++
+int b = 0;
+int f = 1;
+void setup() {
+  pinMode(5,OUTPUT);
+}
+
+void loop() {
+  analogWrite(5,b);
+  b = b + f;
+  if (b <=0)
+     f = -f;
+  if (b >= 255)
+    f = -f;
+  delay(5);
+}
+```
+電路圖：</p>
+![image]()
