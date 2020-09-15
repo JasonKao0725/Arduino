@@ -89,4 +89,4 @@ delay (250);
 }
 ```
 電路圖：</p>
-
+![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
