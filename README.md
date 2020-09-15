@@ -46,7 +46,7 @@ void loop() {
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
 # 20200915
-Project3：LED跑馬燈</p>
+Project3：LED從左到右4顆跑馬燈</p>
 程式碼：</p>
 ```c++
 int LED = 6;
@@ -67,4 +67,4 @@ delay (250);
 }
 ```
 電路圖：</p>
-![image](https://github.com/JasonKao0725/Arduino/blob/master/121B898F-3FBF-41F4-AE8A-AFF6CE90648E.jpeg)
+![image](https://github.com/JasonKao0725/Arduino/blob/master/54918922-D275-4353-BBCA-CA472D0CA838.jpeg)
