@@ -18,14 +18,14 @@ OUTPUT的初始狀態 = 0</p>
 Project1：LED閃爍(單顆)</p>
 程式碼：</p>
 ```C++
-int ,JJ = 0;
+int LED = 0;
 void setup() {
-pinMode(3,JJ)
+pinMode(3,LED)
 }
 void loop() {
-  digitalWrite(3,JJ)
+  digitalWrite(3,LED)
   delay(250)
-JJ ^= 1;
+LED ^= 1;
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/9B7CCF67-C73C-4070-9213-7E7BCDEE8E0A.jpeg)</p>
@@ -33,14 +33,14 @@ JJ ^= 1;
 Project2：LED閃爍(4顆、同步)</p>
 程式碼：</p>
 ```C++
-int jj = 0;
+int LED = 0;
 void setup() {
-  for(int i = 2 ; i<6 ; i++)pinMode(i,OUTPUT);
+  for(int i=2;i<6;i++)pinMode(i,OUTPUT);
 }
 void loop() {
-  for(int i = 2 ; i<6 ; i++)digitalWrite(i,jj);
+  for(int i=2;i<6;i++)digitalWrite(i,LED);
   delay(250);
-  jj ^= 1;
+  LED ^= 1;
 }
 ```
 電路圖：</p>
