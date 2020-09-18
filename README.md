@@ -15,7 +15,7 @@ pinMode(pin,INPUT/OUTPUT)
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
 # 2020/09/01
-Project1：LED閃爍(單顆)</p>
+Project 1：LED閃爍(單顆)</p>
 程式碼：</p>
 ```C++
 int LED = 0;
@@ -30,7 +30,7 @@ LED ^= 1;
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/9B7CCF67-C73C-4070-9213-7E7BCDEE8E0A.jpeg)</p>
 # 2020/09/08
-Project2：LED閃爍(4顆、同步)</p>
+Project 2：LED閃爍(4顆、同步)</p>
 程式碼：</p>
 ```C++
 int LED = 0;
@@ -46,7 +46,7 @@ void loop() {
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
 # 2020/09/15
-Project3：LED跑馬燈(4顆、左到右)</p>
+Project 3：LED跑馬燈(4顆、左到右)</p>
 程式碼：</p>
 ```C++
 int LED = 6;
@@ -67,7 +67,7 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/54918922-D275-4353-BBCA-CA472D0CA838.jpeg)
-Project4：LED跑馬燈(8顆、左到右)</p>
+Project 4：LED跑馬燈(8顆、左到右)</p>
 程式碼：</p>
 ```C++
 int LED = 10;
@@ -88,7 +88,7 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
-Project4+：LED跑馬燈(8顆、右到左)</p>
+Project 4+：LED跑馬燈(8顆、右到左)</p>
 程式碼：</p>
 ```C++
 int LED = 1;
@@ -109,7 +109,7 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
-Project5：LED呼吸燈(暗>亮)</p>
+Project 5：LED呼吸燈(暗>亮)</p>
 程式碼：</p>
 ```C++
 int b = 255;
