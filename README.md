@@ -9,11 +9,27 @@ void loop()
 ```
 會重複執行，主程式的位置</p>
 ```C++
-pinMode(pin,INPUT/OUTPUT)
+int xxx = 0;
+```
+宣告變數(整數)
+```C++
+pinMode(pin,INPUT/OUTPUT);
 ```
 設定腳位輸入(INPUT)、輸出(OUTPUT)</p>
 INPUT的初始狀態 = 1</p>
 OUTPUT的初始狀態 = 0</p>
+```C++
+digitalWrite(pin,HIGH/LOW);
+```
+將腳位設定成數位，高電位(HIGH)、低電位(LOW)
+```C++
+analogWrite(pin,PWM);
+```
+將腳位設定成類比，PWM輸出頻率
+```C++
+delay(100);
+```
+設定延遲時間
 # 2020/09/01
 Project 1：LED閃爍(單顆)</p>
 程式碼：</p>
