@@ -45,7 +45,7 @@ void loop() {
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
-# 20200915
+# 2020/09/15
 Project3：LED跑馬燈(4顆、左到右)</p>
 程式碼：</p>
 ```C++
