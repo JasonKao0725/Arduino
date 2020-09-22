@@ -192,4 +192,4 @@ void loop() {
 }
 ```
 電路圖：</p>
-！[image](https://github.com/JasonKao0725/Arduino/blob/master/3959D99D-E477-4C95-A357-F39565831353.jpeg)
+![image](https://github.com/JasonKao0725/Arduino/blob/master/3959D99D-E477-4C95-A357-F39565831353.jpeg)
