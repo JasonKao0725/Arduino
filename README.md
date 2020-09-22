@@ -143,3 +143,53 @@ void loop() {
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/73A9E4A5-7DCD-4CC8-9784-1F87FCF3F158.jpeg)
+# 2020/09/22
+Project 6：按鈕控制LED亮，Reset鍵滅</p>
+程式碼：</p>
+```C++
+void setup() {
+  pinMode(2,INPUT);
+  pinMode(3,OUTPUT);
+  digitalWrite(2,HIGH);
+  digitalWrite(3,HIGH);
+}
+
+void loop() {
+  if (digitalRead(2) == 0)
+  {
+    digitalWrite(3,LOW);
+  }
+}
+```
+電路圖：</p>
+![iamge]()
+Project 7：切換LED亮滅
+程式碼：</p>
+```C++
+int j=1,jj=1;
+void setup() {
+ pinMode(2,INPUT);
+ pinMode(3,OUTPUT);
+ digitalWrite(2,HIGH);
+ digitalWrite(3,HIGH);
+}
+void loop() {
+  if(!digitalRead(2))
+  {
+    while(!digitalRead(2))
+    delay(20);
+    jj=0;
+  }
+  else
+  {
+    if(!jj)
+    {
+      jj=1;
+      j^=1;
+    }
+  }
+  digitalWrite(3,j);
+}
+```
+電路圖：</p>
+！[image]()
