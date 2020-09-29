@@ -252,3 +252,110 @@ void loop()
 ```
 電路圖：</p>
 ![iamge](https://github.com/JasonKao0725/Arduino/blob/master/97DB0FA6-437C-402A-BBA5-C375F69D315A.jpeg)
+Project 9：按鈕切換燈光以及切換LED模式</p>
+按鈕1切換三種模式：RGB三色變化、單一色呼吸燈、6種顏色切換(使用按鈕2手動切換)</p>
+程式碼：</p>
+```C++
+int b = 255;
+int f = -1;
+int jj = 1, a = -1;
+int gg = 1 , B = -1;
+void setup() {
+  pinMode(2,INPUT);
+  digitalWrite(2,1);
+  pinMode(4,INPUT);
+  digitalWrite(4,1);
+for(int i=9;i<12;i++)
+  pinMode(i,OUTPUT);
+  
+}
+
+void loop() {
+  
+  if(!digitalRead(4))
+  {
+    while(!digitalRead(4))RGB(0,0,0);
+    if(!gg)
+    {
+      B++;
+      gg=1;
+    }
+  }
+  else
+  {
+    gg=0;
+    switch(B)
+    {
+      case 0:
+      RGB(255,0,0);
+      RGB(0,255,0);
+      RGB(0,0,255);
+      break;
+      case 1:
+      BRGB();
+      break;
+      case 2:
+      ButtonRGB();
+      break;
+      case 3:
+      B = 0;
+      break;
+    }
+  }
+}
+void RGB(byte R ,byte G ,byte B) {
+  analogWrite(9,R);
+  analogWrite(10,G);
+  analogWrite(11,B);
+  delay(1000);
+}
+void BRGB() {
+  analogWrite(9,b);
+  b = b + f;
+  if (b <=0||b >= 255)
+     f = -f;
+    delay(5);
+}
+void ButtonRGB() {
+    if(!digitalRead(2))
+  {
+    while(!digitalRead(2))delay(20);
+    if(!jj)
+    {
+      a++;
+      jj=1;
+    }
+  }
+  else
+  {
+    jj=0;
+    switch(a)
+    {
+      case 0:
+        RGB(255,0,0);
+      break;
+      case 1:
+        RGB(0,255,0);
+      break;
+      case 2:
+        RGB(0,0,255);
+      break;
+      case 3:
+        RGB(255,255,0);
+      break;
+      case 4:
+        RGB(0,255,255);
+      break;
+      case 5:
+        RGB(255,0,255);
+      break;
+      case 6:
+        a = 0;
+      break;
+    }
+  }
+}
+
+```
+電路圖：</p>
+![image]()
