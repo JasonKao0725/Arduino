@@ -1,5 +1,5 @@
 # HYIVS Arduino Practical Class
-###### 初始指令：
+## 初始指令：
 ```C++
 void setup()
 ```
