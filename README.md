@@ -31,7 +31,7 @@ delay(100);
 ```
 設定延遲時間
 # 2020/09/01
-## Project 1：LED閃爍(單顆)</p>
+## Project 1：LED閃爍(單顆)
 程式碼：</p>
 ```C++
 int LED = 0;
@@ -46,7 +46,7 @@ LED ^= 1;
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/9B7CCF67-C73C-4070-9213-7E7BCDEE8E0A.jpeg)</p>
 # 2020/09/08
-## Project 2：LED閃爍(4顆、同步)</p>
+## Project 2：LED閃爍(4顆、同步)
 程式碼：</p>
 ```C++
 int LED = 0;
@@ -62,7 +62,7 @@ void loop() {
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/C116E5B4-9DD4-4894-BB18-8365EFEC54CD.jpeg)</p>
 # 2020/09/15
-## Project 3：LED跑馬燈(4顆、左到右)</p>
+## Project 3：LED跑馬燈(4顆、左到右)
 程式碼：</p>
 ```C++
 int LED = 6;
@@ -83,7 +83,7 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/54918922-D275-4353-BBCA-CA472D0CA838.jpeg)
-## Project 4：LED跑馬燈(8顆、左到右)</p>
+## Project 4：LED跑馬燈(8顆、左到右)
 程式碼：</p>
 ```C++
 int LED = 10;
@@ -104,7 +104,7 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
-## Project 4+：LED跑馬燈(8顆、右到左)</p>
+## Project 4+：LED跑馬燈(8顆、右到左)
 程式碼：</p>
 ```C++
 int LED = 1;
@@ -125,7 +125,7 @@ delay (250);
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/68C1E0C0-83BA-46F6-A809-A12D144BAFBA.jpeg)
-## Project 5：LED呼吸燈(暗>亮)</p>
+## Project 5：LED呼吸燈(暗>亮)
 程式碼：</p>
 ```C++
 int b = 255;
@@ -144,7 +144,7 @@ void loop() {
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/73A9E4A5-7DCD-4CC8-9784-1F87FCF3F158.jpeg)
 # 2020/09/22
-## Project 6：按鈕控制LED亮，Reset鍵滅</p>
+## Project 6：按鈕控制LED亮，Reset鍵滅
 程式碼：</p>
 ```C++
 void setup() {
@@ -163,7 +163,7 @@ void loop() {
 ```
 電路圖：</p>
 ![iamge](https://github.com/JasonKao0725/Arduino/blob/master/3959D99D-E477-4C95-A357-F39565831353.jpeg)
-## Project 7：切換LED亮滅</p>
+## Project 7：切換LED亮滅
 程式碼：</p>
 ```C++
 int j=1,jj=1;
@@ -193,7 +193,7 @@ void loop() {
 ```
 電路圖：</p>
 ![image](https://github.com/JasonKao0725/Arduino/blob/master/3959D99D-E477-4C95-A357-F39565831353.jpeg)
-## Project 8：切換控制LED模式</p>
+## Project 8：切換控制LED模式
 程式碼：</p>
 ```C++
 byte ledpin[8]={3,4,5,6,7,8,9,10};
@@ -252,7 +252,7 @@ void loop()
 ```
 電路圖：</p>
 ![iamge](https://github.com/JasonKao0725/Arduino/blob/master/97DB0FA6-437C-402A-BBA5-C375F69D315A.jpeg)
-## Project 9：按鈕切換燈光以及切換LED模式</p>
+## Project 9：按鈕切換燈光以及切換LED模式
 按鈕1切換三種模式：RGB三色變化、單一色呼吸燈、6種顏色切換(使用按鈕2手動切換)</p>
 程式碼：</p>
 ```C++
